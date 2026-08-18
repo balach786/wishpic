@@ -1,17 +1,11 @@
-import p1 from "@/assets/iquira-1.jpg.asset.json";
-import p2 from "@/assets/iquira-2.jpg.asset.json";
-import p3 from "@/assets/iquira-3.jpg.asset.json";
-import p4 from "@/assets/iquira-4.jpg.asset.json";
-import p5 from "@/assets/iquira-5.jpg.asset.json";
-
 export type Photo = { src: string; alt: string };
 
 export const photos: Photo[] = [
-  { src: p1.url, alt: "Iquira Bhatti sitting at a candlelit birthday table" },
-  { src: p2.url, alt: "Iquira Bhatti in soft daylight beside a pink birthday cake" },
-  { src: p3.url, alt: "Iquira Bhatti resting beside a candlelit cake" },
-  { src: p4.url, alt: "Iquira Bhatti smiling softly in warm candlelight" },
-  { src: p5.url, alt: "Iquira Bhatti in a warm golden candlelit portrait" },
+  { src: "/iquira-1.jpg", alt: "Iquira Bhatti sitting at a candlelit birthday table" },
+  { src: "/iquira-2.jpg", alt: "Iquira Bhatti in soft daylight beside a pink birthday cake" },
+  { src: "/iquira-3.jpg", alt: "Iquira Bhatti resting beside a candlelit cake" },
+  { src: "/iquira-4.jpg", alt: "Iquira Bhatti smiling softly in warm candlelight" },
+  { src: "/iquira-5.jpg", alt: "Iquira Bhatti in a warm golden candlelit portrait" },
 ];
 
 export const birthdayConfig = {
